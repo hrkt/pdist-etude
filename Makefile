@@ -1,3 +1,5 @@
+init:
+	pip install -r requirements.txt
 check:
 	flake8 pdist
 checkstyle:
